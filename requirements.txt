@@ -14,6 +14,6 @@ seaborn
 six
 tzdata
 streamlit
-
+sklearn
 
 
