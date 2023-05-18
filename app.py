@@ -68,4 +68,10 @@ result = loaded_model.predict(list1)
 
 # display the predicted value
 submit = st.button('Submit')
+if submit:
+    if result<0:
+        st.write("Don't Purchase this car")
+
+    else:
+        st.write("The price of the car is{}".format(result))
 
