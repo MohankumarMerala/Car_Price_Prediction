@@ -40,17 +40,17 @@ Present_Price = st.number_input("Enter Present_Price")
 
 Kms_Driven = st.number_input("Enter Kms_Driven")
 
-Owner = st.number_input("Enter Owner")
+Owner = st.number_input("Enter Number of Existing Owner")
 
-no_year = st.number_input("Enter Number of years used:")
+no_year = st.number_input("Enter Number of years Car used")
 
-Fuel_Type_Diesel = st.number_input("Enter Fuel_Type_Diesel")
+Fuel_Type_Diesel = st.number_input("Enter Fuel_Type_Diesel(Type 1 if present or 0 )")
 
-Fuel_Type_Petrol = st.number_input("Enter Fuel_Type_Petrol")
+Fuel_Type_Petrol = st.number_input("Enter Fuel_Type_Petrol(Type 1 if present or 0 )")
 
-Seller_Type_Individual = st.number_input("Enter Seller_Type_Individual")
+Seller_Type_Individual = st.number_input("Enter Seller_Type_Individual(if dealer(Type 0) or individual(Type 1))")
 
-Transmission_Manual = st.number_input("Transmission_Manual")
+Transmission_Manual = st.number_input("Transmission_Manual(if Manual(Type 0) or Automatic(Type 1)")
 
 
 
