@@ -55,7 +55,7 @@ Transmission_Manual = st.number_input("Transmission_Manual")
 
 
 
-loaded_model = load(open("C:\\Users\\admin\\Desktop\\Car_Dataset\\final_model.sav", 'rb'))
+loaded_model = load(open("final_model.sav", 'rb'))
 
 list1 = [Present_Price,Kms_Driven,Owner,no_year,Fuel_Type_Diesel,Fuel_Type_Petrol,Seller_Type_Individual,Transmission_Manual]
 import numpy as np
