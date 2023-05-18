@@ -14,23 +14,6 @@ seaborn==0.12.2
 six==1.16.0
 tzdata==2023.3
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from pickle import dump, load
 
-# For Suppressing warnings
-import warnings
-warnings.filterwarnings('ignore')
-
-from sklearn.ensemble import ExtraTreesRegressor
-
-# Feature Scaling
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import train_test_split
-
-import streamlit as st
 
 
